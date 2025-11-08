@@ -1,0 +1,12 @@
+grav-admin/cache/*
+grav-admin/logs/*
+
+# Sensitive
+grav-admin/user/accounts/grav-admin.yaml
+grav-admin/user/config/security.yaml
+grav-admin/user/data/flex/indexes/accounts.yaml
+
+# Changing
+grav-admin/user/data/feed/*
+grav-admin/user/data/notifications/*
+grav-admin/user/data/scheduler/last_run.txt
